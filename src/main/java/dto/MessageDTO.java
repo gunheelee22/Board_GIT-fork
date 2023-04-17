@@ -12,7 +12,6 @@ public class MessageDTO {
 		this.writer = writer;
 		this.message = message;
 	}
-
 	
 	public int getId() {
 		return id;

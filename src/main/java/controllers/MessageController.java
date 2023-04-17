@@ -16,7 +16,6 @@ public class MessageController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String cmd = request.getRequestURI();
 		MessagesDAO dao = new MessagesDAO();
-
 		try {
 			// 1. 메세지 입력
 			if(cmd.equals("/insert.message")) {
